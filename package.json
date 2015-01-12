@@ -1,0 +1,33 @@
+{
+  "name": "rotor-babylon-loader",
+  "version": "0.0.7",
+  "description": "Babylon scene loader for Rotor engine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "entity",
+    "component",
+    "gameengine"
+  ],
+  "author": "Denis Zatsepin <denis@zatsepin.spb.ru>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deniszatsepin/rotor-babylon-loader"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "gulp": "^3.8.10",
+    "gulp-jshint": "^1.9.0",
+    "gulp-mocha": "^2.0.0",
+    "jshint-stylish": "^1.0.0",
+    "mocha": "^2.1.0",
+    "sinon": "^1.12.2",
+    "sinon-chai": "^2.6.0"
+  }
+}
