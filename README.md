@@ -1,2 +1,2 @@
-rotor-babylon-loader
+rotor-scene-loader
 ==========
