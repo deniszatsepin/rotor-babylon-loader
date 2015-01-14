@@ -1,3 +1,3 @@
-var Game = require('./lib/game');
+var AssetLoader = require('./lib/assetLoader');
 
-module.exports = Game;
+module.exports.AssetLoader = AssetLoader;

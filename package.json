@@ -19,6 +19,7 @@
     "url": "https://github.com/deniszatsepin/rotor-scene-loader"
   },
   "dependencies": {
+    "eventemitter2": "^0.4.14",
     "lodash": "^2.4.1"
   },
   "devDependencies": {
