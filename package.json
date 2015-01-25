@@ -1,6 +1,6 @@
 {
   "name": "rotor-scene-loader",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "The scene loader for Rotor engine.",
   "main": "index.js",
   "scripts": {
