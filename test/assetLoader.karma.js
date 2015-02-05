@@ -49,13 +49,27 @@ describe('AssetLoader tests:', function() {
 			})
 		});
 
-		it('should load file set', function(done) {
+		it('should load babylon file', function(done) {
+			var carScene = 'base/test/scene/car/Car_LowPoly_Blue.babylon';
+			assetLoader.loadFile(carScene).then(function success(res) {
+				expect(res).to.be.an('object');
+				expect(res).to.have.property('materials');
+				done(null);
+			}, function failure(err) {
+				done(new Error('err: ' + err));
+			})
+		});
+
+		it('should load file set with notifications', function(done) {
 			var filesUrl = ['base/test/images/rotor.jpg', 'base/test/json/map.json'];
+			var loaded = 0;
 			assetLoader.loadFileSet(filesUrl).then(function success(res) {
-				console.log(res);
+				expect(loaded).to.be.equal(2);
 				done(null);
 			}, function failure(err) {
 				done(new Error(err));
+			}, function progress(pr) {
+				loaded += 1;
 			});
 		});
 

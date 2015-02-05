@@ -8,8 +8,8 @@ var SceneParser = require('../').SceneParser;
 chai.should();
 chai.use(sinonChai);
 
-describe('AssetLoader tests:', function() {
-	describe('AssetLoader', function() {
+describe('Scene parser tests:', function() {
+	describe('SceneParser', function() {
 		var assetLoader;
 		var sceneParser;
 		var carScene = 'base/test/scene/car/Car_LowPoly_Blue.babylon';
@@ -30,5 +30,14 @@ describe('AssetLoader tests:', function() {
 			expect(sceneParser.baseUrl).to.be.equal(baseUrl);
 		});
 
+		it('should parse scene', function(done) {
+			assetLoader.loadFile(carScene).then(function(scene) {
+				expect(scene).to.have.property('materials');
+				var assets = sceneParser.getAssets(scene.materials);
+				done();
+			}, function(err) {
+				done(err);
+			})
+		});
 	});
 });
