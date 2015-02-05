@@ -39,5 +39,17 @@ describe('Scene parser tests:', function() {
 				done(err);
 			})
 		});
+
+		it('should load and parse scene', function(done) {
+			var promise = sceneParser.start();
+			promise.then(success, failure);
+			
+			function success(res) {
+				done();
+			}
+			function failure(err) {
+				done(err);
+			}
+		});
 	});
 });
