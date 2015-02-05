@@ -1,0 +1,62 @@
+	Babylon.js Exporter version: 1.5.0, Blender version: 2.72 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Python World class constructor completed
+	processing begun of material:  Car_LowPoly_Blue.CarTexture
+	Diffuse texture found
+	processing begun of material:  Car_LowPoly_Blue.Material
+	Diffuse texture found
+	processing begun of material:  Car_LowPoly_Blue.Material.001
+	Diffuse texture found
+	processing begun of material:  Car_LowPoly_Blue.Material.002
+	Diffuse texture found
+	processing begun of material:  Car_LowPoly_Blue.Material.003
+	Diffuse texture found
+	processing begun of material:  Car_LowPoly_Blue.RearWindow
+	Diffuse texture found
+	processing begun of material:  Car_LowPoly_Blue.WhiteStripe
+	Diffuse texture found
+	processing begun of material:  Car_LowPoly_Blue.Windows
+	Diffuse texture found
+	processing begun of material:  Car_LowPoly_Blue.WindShield
+	Diffuse texture found
+	processing begun of mesh:  TireRP
+		num positions      :  168
+		num normals        :  168
+		num uvs            :  336
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  240
+	processing begun of mesh:  TireRD
+		num positions      :  168
+		num normals        :  168
+		num uvs            :  336
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  240
+	processing begun of mesh:  TireFD
+		num positions      :  168
+		num normals        :  168
+		num uvs            :  336
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  240
+	processing begun of camera (FreeCamera):  Camera
+	processing begun of mesh:  Car_Blue
+		processing begun of multimaterial:  Car_LowPoly_Blue.Multimaterial#0
+		num positions      :  2106
+		num normals        :  2106
+		num uvs            :  4212
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  5220
+	processing begun of mesh:  TireFP
+		num positions      :  168
+		num normals        :  168
+		num uvs            :  336
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  240
+	processing begun of light (POINT):  Lamp
+========= Writing of scene file started =========
+========= Writing of scene file completed =========
+========= end of processing =========

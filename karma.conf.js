@@ -17,7 +17,8 @@ module.exports = function(config) {
     files: [
         'test/**/*.karma.js',
         {pattern: 'test/images/*.jpg', watched: false, included: false, served: true},
-        {pattern: 'test/json/*', watched: false, included: false, served: true}
+        {pattern: 'test/json/*', watched: false, included: false, served: true},
+        {pattern: 'test/scene/**/*', watched: false, included: false, served: true}
     ],
 
 
@@ -58,7 +59,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['Firefox'],
+    browsers: ['Chrome'],
 
     browserDisconnectTimeout: 10000,
 
